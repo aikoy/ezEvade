@@ -101,12 +101,7 @@ namespace ezEvade
 
         public static int GetDefaultSpellMode(EvadeSpellData spell)
         {
-            if (spell.dangerlevel > 3)
-            {
-                return 0;
-            }
-
-            return 1;
+            return 0;
         }
 
         public static bool PreferEvadeSpell()
